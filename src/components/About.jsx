@@ -11,7 +11,7 @@ const AboutUs = ({handleContact}) => {
             alt="About"
             className="w-full rounded-lg mb-4"
         />
-       <div className="text-[0f0f0f] absolute top-1/3 right-2/6 cursor-pointer " onClick={()=>handleContact(true)}>  <MdKeyboardArrowRight className="text-4xl"/></div>
+       <div className="text-[0f0f0f] absolute top-1/3 right-2/5 cursor-pointer " onClick={()=>handleContact(true)}>  <MdKeyboardArrowRight className="text-4xl"/></div>
       </div>
       <p className="text-gray-700 text-sm leading-relaxed">
         We are a team of dedicated professionals driven by creativity, innovation, and a passion
